@@ -3,17 +3,10 @@ PODS:
     - Flutter
   - app_review (1.0.1):
     - Flutter
-<<<<<<< HEAD
-  - apphud (2.1.3):
-    - ApphudSDK (= 2.4.4)
-    - Flutter
-  - ApphudSDK (2.4.4)
-=======
   - apphud (2.2.2):
     - ApphudSDK (= 2.8.1)
     - Flutter
   - ApphudSDK (2.8.1)
->>>>>>> 2dc8ec6 (renamed app)
   - appsflyer_sdk (6.4.4):
     - AppsFlyerFramework (= 6.5.2)
     - Flutter
@@ -37,11 +30,7 @@ PODS:
   - Firebase/Database (8.15.0):
     - Firebase/CoreOnly
     - FirebaseDatabase (~> 8.15.0)
-<<<<<<< HEAD
-  - firebase_core (1.16.0):
-=======
   - firebase_core (1.17.0):
->>>>>>> 2dc8ec6 (renamed app)
     - Firebase/CoreOnly (= 8.15.0)
     - Flutter
   - firebase_database (8.2.0):
@@ -66,15 +55,9 @@ PODS:
     - Flutter
   - flutter_webview_plugin (0.0.1):
     - Flutter
-<<<<<<< HEAD
-  - GoogleDataTransport (9.1.2):
-    - GoogleUtilities/Environment (~> 7.2)
-    - nanopb (~> 2.30908.0)
-=======
   - GoogleDataTransport (9.1.4):
     - GoogleUtilities/Environment (~> 7.7)
     - nanopb (< 2.30910.0, >= 2.30908.0)
->>>>>>> 2dc8ec6 (renamed app)
     - PromisesObjC (< 3.0, >= 1.2)
   - GoogleUtilities/Environment (7.7.0):
     - PromisesObjC (< 3.0, >= 1.2)
@@ -183,13 +166,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   advertising_id: 31c738918c2e04d86d80c293357e61e06e87df74
   app_review: 6f51001269c59a2f4a5b5ae68b7d106401152764
-<<<<<<< HEAD
-  apphud: a5e0ea22a1c0c5cb9bfd98f55ffb1ac59ec9abf4
-  ApphudSDK: 6633d84ca17c0a61d00f9ac7c280179ac258cd8f
-=======
   apphud: eed66c20b5dee0bb9324aa1c565712827d30c711
   ApphudSDK: 57787f96e58dd0b921be6d453b0bb856864d394e
->>>>>>> 2dc8ec6 (renamed app)
   appsflyer_sdk: 1e59c8c01aeeab556f299cbe66bf769862026cdb
   AppsFlyerFramework: 9f304d91cc80b6579b1206a59220383056b58b47
   battery_plus: 7851ab482c336dd101ae735dc9363f01e1223c7c
@@ -199,11 +177,7 @@ SPEC CHECKSUMS:
   FBSDKCoreKit: 506c0fd1c09a3075f62be8fa36bdd921c563daa9
   FBSDKCoreKit_Basics: c0701d1634c944d60dd3c6361d66dbd0e707a456
   Firebase: 5f8193dff4b5b7c5d5ef72ae54bb76c08e2b841d
-<<<<<<< HEAD
-  firebase_core: 6ef152b7d6a361e24105e2cc56ab458f1f8367fe
-=======
   firebase_core: aa1b92020533f5c23955e388c347c58fd64f8627
->>>>>>> 2dc8ec6 (renamed app)
   firebase_database: f7913545f9afe92cbbb9b61d5037d924297d8fda
   FirebaseCore: 5743c5785c074a794d35f2fff7ecc254a91e08b1
   FirebaseCoreDiagnostics: 92e07a649aeb66352b319d43bdd2ee3942af84cb
@@ -211,11 +185,7 @@ SPEC CHECKSUMS:
   Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
   flutter_facebook_app_links: a16c3850ae577f51e5cdca14510b1bd486e09337
   flutter_webview_plugin: ed9e8a6a96baf0c867e90e1bce2673913eeac694
-<<<<<<< HEAD
-  GoogleDataTransport: 629c20a4d363167143f30ea78320d5a7eb8bd940
-=======
   GoogleDataTransport: 5fffe35792f8b96ec8d6775f5eccd83c998d5a3b
->>>>>>> 2dc8ec6 (renamed app)
   GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
   leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
@@ -228,12 +198,6 @@ SPEC CHECKSUMS:
   url_launcher_ios: 839c58cdb4279282219f5e248c3321761ff3c4de
   webview_flutter_wkwebview: b7e70ef1ddded7e69c796c7390ee74180182971f
 
-<<<<<<< HEAD
-PODFILE CHECKSUM: 7adbc9d59f05e1b01f554ea99b6c79e97f2214a2
-
-COCOAPODS: 1.11.2
-=======
 PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
 
 COCOAPODS: 1.11.3
->>>>>>> 2dc8ec6 (renamed app)

@@ -4,11 +4,7 @@ import 'package:quiz_bet/gen/assets.gen.dart';
 import 'package:quiz_bet/main.dart';
 import 'package:quiz_bet/ui/screens/onboarding/ui/onboarding_screen.dart';
 import 'package:quiz_bet/ui/screens/webview/web.dart';
-<<<<<<< HEAD
-import 'package:quiz_bet/ui/uikit/b_winners_label.dart';
-=======
 import 'package:quiz_bet/ui/uikit/xbet_label.dart';
->>>>>>> 2dc8ec6 (renamed app)
 import 'package:quiz_bet/ui/uikit/settings_button.dart';
 import '../../../data/app_settings/color_pallete/colors.dart';
 
@@ -55,11 +51,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
               Padding(
                 padding: EdgeInsets.only(bottom: 16.h),
                 child: SettingsButton(
-<<<<<<< HEAD
-                  onPressed: () { openPrivacyPolicy(); },
-=======
                   onPressed: () => openPrivacyPolicy(),
->>>>>>> 2dc8ec6 (renamed app)
                   icon: Assets.images.privacyPolicy.svg(),
                   label: 'Privacy policy',
                 ),
@@ -67,11 +59,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
               Padding(
                 padding: EdgeInsets.only(bottom: 16.h),
                 child: SettingsButton(
-<<<<<<< HEAD
-                  onPressed: () { openTermsOfUse(); },
-=======
                   onPressed: () =>openTermsOfUse(),
->>>>>>> 2dc8ec6 (renamed app)
                   icon: Assets.images.termsOfUse.svg(),
                   label: 'Terms of use',
                 ),
@@ -79,13 +67,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
               Padding(
                 padding: EdgeInsets.only(bottom: 16.h),
                 child: SettingsButton(
-<<<<<<< HEAD
-                  onPressed: () { openSupport(); },
-                  icon: Assets.images.support.svg(),
-                  label: 'Support',
-                ),
-              ),
-=======
                   icon: Assets.images.support.svg(),
                   onPressed: ()=>openSupport(),
                   label: 'Support',
@@ -98,7 +79,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   label: 'Rate app',
                 ),
               )
->>>>>>> 2dc8ec6 (renamed app)
             ],
           ),
         ),

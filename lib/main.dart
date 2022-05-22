@@ -1,54 +1,25 @@
-<<<<<<< HEAD
-import 'dart:io';
-
-=======
 import 'dart:async';
 import 'dart:io';
 import 'package:flutter/foundation.dart';
->>>>>>> 2dc8ec6 (renamed app)
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hive/hive.dart';
 import 'package:path_provider/path_provider.dart';
-<<<<<<< HEAD
-=======
 import 'package:apphud/apphud.dart';
->>>>>>> 2dc8ec6 (renamed app)
 import 'package:quiz_bet/data/app_settings/navigation/routes.dart';
 import 'package:quiz_bet/ui/screens/home/models/results/hive_results.dart';
 import 'package:quiz_bet/ui/screens/profile/models/profile_model.dart';
 import 'package:quiz_bet/ui/screens/quiz/models/limit_model/limit_model.dart';
-<<<<<<< HEAD
-
-import 'data/app_settings/color_pallete/colors.dart';
-import 'package:http/http.dart';
-import 'package:traffic_router/traffic_router.dart' as tr;
-import 'package:url_launcher/url_launcher.dart';
-import 'package:webview_flutter/webview_flutter.dart';
-import 'package:apphud/apphud.dart';
-import 'package:app_review/app_review.dart';
-import 'package:flutter/services.dart';
-import 'dart:io';
-import 'dart:async';
-=======
 import 'package:url_launcher/url_launcher.dart';
 import 'data/app_settings/color_pallete/colors.dart';
 import 'package:traffic_router/traffic_router.dart' as tr;
 import 'package:webview_flutter/webview_flutter.dart';
 import 'package:app_review/app_review.dart';
->>>>>>> 2dc8ec6 (renamed app)
 
 final api = 'app_XSbfgVs8HYR7h3nibFchSimEHANs7Z';
 final productID = 'purchase_noads_unlimattempts';
 
-<<<<<<< HEAD
-final termsOfUse = 'https://docs.google.com/document/d/1QUiy4AdgJTq7Ya5G0aVt7SKFNqcdR11qpVSmyHfEKRU/edit?usp=sharing';
-final privacyPolicy = 'https://docs.google.com/document/d/1Zv6fNzSjMB362Ugon1hfOq-TNUwqJAL-24Ck2Obcri0/edit?usp=sharing';
-final support = 'https://docs.google.com/forms/d/e/1FAIpQLScPzb8QbLXGLhxDGQEg_BaNVMLloIauFCMyzE04vGQkEGutcQ/viewform?usp=sf_link';
-
-final StreamController<bool> subscribedController = StreamController.broadcast();
-=======
 final termsOfUse = 'https://docs.google.com/document/d/1Bha_r6RQqlYbhW2RwEjnY9PkZJB-9g5i-LV78N3KDCI/edit?usp=sharing';
 final privacyPolicy = 'https://docs.google.com/document/d/11yOB1Rjvvj4yVrwTts5g_yQnxKekIkNMewFbGD8J4c4/edit?usp=sharing';
 final support = 'https://docs.google.com/forms/d/e/1FAIpQLSfK9tvaQU4gfZ0Y-3CXbFQPUHXi0_usAsQK4y3WjZb_PXv24g/viewform?usp=sf_link';
@@ -56,13 +27,10 @@ final support = 'https://docs.google.com/forms/d/e/1FAIpQLSfK9tvaQU4gfZ0Y-3CXbFQ
 // Этот контроллер подписки может использоваться в StreamBuilder
 final StreamController<bool> subscribedController = StreamController.broadcast();
 // Через эту переменную можно смотреть состояние подписки юзера
->>>>>>> 2dc8ec6 (renamed app)
 bool subscribed = false;
 late Stream<bool> subscribedStream;
 late StreamSubscription<bool> subT;
 
-<<<<<<< HEAD
-=======
 // Закинуть на экран с покупкой, если вернул true, то закрыть экран покупки
 // В дебаге этот метод вернет true
 Future<bool> purchase() async {
@@ -96,7 +64,6 @@ openSupport() {
     launch(support);
 }
 
->>>>>>> 2dc8ec6 (renamed app)
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
@@ -136,19 +103,6 @@ void main() async {
   }
 }
 
-<<<<<<< HEAD
-openTermsOfUse() {
-    launch(termsOfUse);
-}
-openPrivacyPolicy() {
-    launch(privacyPolicy);
-}
-openSupport() {
-    launch(support);
-}
-
-=======
->>>>>>> 2dc8ec6 (renamed app)
 Future<void> _launchInBrowser(String url) async {
   if (await canLaunch(url)) {
     await launch(
@@ -246,13 +200,10 @@ void startMain() async {
   final prem = await Hive.openBox<bool>('premium');
   if (onboardingSeen.values.isEmpty) await onboardingSeen.put('seen', false);
   seen = onboardingSeen.values.first;
-<<<<<<< HEAD
-=======
   if (prem.values.isEmpty) await prem.put('premium', false);
   // final sd = await Hive.openBox('limits');
   // await sd.clear();
   // await prem.clear();
->>>>>>> 2dc8ec6 (renamed app)
   runApp(const App());
 }
 
@@ -269,11 +220,7 @@ class App extends StatelessWidget {
           unselectedWidgetColor: AppColors.usualBlue.withOpacity(0.3),
         ),
         routes: routes,
-<<<<<<< HEAD
-        initialRoute: seen==true && subscribed==true
-=======
         initialRoute: seen==true &&subscribed==true
->>>>>>> 2dc8ec6 (renamed app)
             ? MainNavigationRoutes.main
             : MainNavigationRoutes.onboarding,
         debugShowCheckedModeBanner: false,
